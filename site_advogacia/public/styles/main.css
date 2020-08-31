@@ -1,0 +1,97 @@
+/*-------reset a pagina-----------*/
+
+/*------serviços--------------*/ 
+
+ .servicos{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   
+ }
+ .servicos article{
+   margin-top: 80px;
+   width: 30vw;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+ }
+.servicos .icon{
+  width: 80px;
+  margin-bottom: 20px;
+}
+.servicos h5{
+  
+  margin-bottom: 20px;
+  font-size: 1em;
+  color:#3b3b3b;
+}
+.servicos p{
+  font-family: Roboto;
+  font-weight: 400;
+  padding: 10px;
+  font-size: 16px;
+    line-height: 2.4em;
+  margin-bottom: 1em;
+  color:#5e5e5e;
+}
+
+ h2{
+ text-align: center;
+ font-size: 1.5em;
+ font-family: Ubuntu;
+ font-weight: 400;
+ color:#5e5e5e;
+ margin-top:2em;
+}
+hr{
+  
+  margin: 60px auto 40px auto;
+   color:#EEE;
+   width: 50%;
+}
+.escritorio article{
+  display: flex;
+  justify-content: space-around;
+}
+ p{
+  text-align: center;
+  font-size:1em;
+  color:#666666;
+  line-height: 1.5em;
+}
+
+.card{
+  margin-top: 3em;
+  width: 30%;
+}
+.titulo2{
+  margin-bottom: 30px;
+}
+
+
+/*-------patrocinio-----------*/
+.patrocinador{
+ display: flex;
+ width: 100%;
+ justify-content: space-between;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+
+.patrocinador article{
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  align-items: center;
+}
+.patrocinador article img{
+  width:60px;
+  height: 60px;
+  
+}
+.patrocinador article a{
+  margin-top: 20px;
+  color:#666666;
+
+}
+
